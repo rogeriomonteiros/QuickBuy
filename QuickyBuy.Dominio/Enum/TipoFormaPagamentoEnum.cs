@@ -11,4 +11,5 @@ namespace QuickBuy.Dominio.Enum
         CartaoDeCredito = 2,
         Deposito = 3
     }
+
 }

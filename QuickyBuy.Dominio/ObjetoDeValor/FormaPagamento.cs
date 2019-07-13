@@ -32,4 +32,5 @@ namespace QuickBuy.Dominio.ObjetoDeValor
         }
 
     }
+
 }
