@@ -21,9 +21,9 @@ namespace QuickBuy.Dominio.Entidades
 
         public int FormaPagamentoId { get; set; }
 
-        public FormaPagamento FormaPagamento { get; set; }
+        public virtual FormaPagamento FormaPagamento { get; set; }
 
-        public ICollection<ItemPedido> ItemPedidos { get; set; }
+        public virtual ICollection<ItemPedido> ItemPedidos { get; set; }
 
         public override void Validate()
         {
